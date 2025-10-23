@@ -1,0 +1,13 @@
+{
+  "header": {
+    "nav": {
+      "main": "main",
+      "about": "about",
+      "gameFeatures": "game features",
+      "systemRequirements": "system requirements",
+      "quotes": "quotes",
+      "newsletter": "newsletter"
+    },
+    "logoAlt": "SOS — Go back to the home page"
+  }
+}

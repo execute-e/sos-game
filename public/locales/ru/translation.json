@@ -1,0 +1,13 @@
+{
+  "header": {
+    "nav": {
+      "main": "главная",
+      "about": "о нас",
+      "gameFeatures": "особенности игры",
+      "systemRequirements": "системные требования",
+      "quotes": "цитаты",
+      "newsletter": "рассылка"
+    },
+    "logoAlt": "SOS — Вернуться на главную"
+  }
+}

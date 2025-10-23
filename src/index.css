@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    --color-white: #FFF;
+    --color-orange: #FFB548;
+    --color-dark: #1A1917;
+    --table-border-color: rgba(151, 151, 151, 0.5);
+    --color-black: #000;
+
+    --font-base: 'Open Sans', sans-serif;
+    --font-accent: 'Bebas Neue', sans-serif;
+  }
+}
+
+.color-black {
+  color: var(--color-black);
+}
+
+.bg-black {
+  background-color: var(--color-black);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.color-orange {
+  color: var(--color-orange);
+}
+
+.bg-orange {
+  background-color: var(--color-orange);
+}
+
+.color-dark {
+  color: var(--color-dark);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+}
+
+.border-gray {
+  border-color: var(--table-border-color);
+}
+
+.font-base {
+  font-family: var(--font-base);
+}
+
+.font-accent {
+  font-family: var(--font-accent);
+}
