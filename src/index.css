@@ -2,15 +2,25 @@
 
 @layer base {
   :root {
-    --color-white: #FFF;
-    --color-orange: #FFB548;
-    --color-dark: #1A1917;
+    --color-white: #fff;
+    --color-orange: #ffb548;
+    --color-dark: #1a1917;
     --table-border-color: rgba(151, 151, 151, 0.5);
     --color-black: #000;
 
     --font-base: 'Open Sans', sans-serif;
     --font-accent: 'Bebas Neue', sans-serif;
+
+    --container-padding-x: 15px;
+    --container-width: 1185px;
   }
+}
+
+.c {
+  /*Сокращение для container | Abbreviation for container*/
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
 }
 
 .color-black {
