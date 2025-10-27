@@ -1,68 +1,54 @@
 @import 'tailwindcss';
 
+@theme {
+  --color-white: #fff;
+  --color-orange: #ffb548;
+  --color-dark: #1a1917;
+  --color-black: #000;
+  --color-gray-border: rgba(151, 151, 151, 0.5);
+  
+  --font-family-sans: 'Open Sans', sans-serif;
+  --font-family-serif: 'Bebas Neue', sans-serif;
+  
+  --font-family-base: 'Open Sans', sans-serif;
+  --font-family-accent: 'Bebas Neue', sans-serif;
+}
+
 @layer base {
   :root {
-    --color-white: #fff;
-    --color-orange: #ffb548;
-    --color-dark: #1a1917;
-    --table-border-color: rgba(151, 151, 151, 0.5);
-    --color-black: #000;
-
-    --font-base: 'Open Sans', sans-serif;
-    --font-accent: 'Bebas Neue', sans-serif;
-
     --container-padding-x: 15px;
     --container-width: 1185px;
+  }
+  
+  body {
+    font-family: var(--font-family-base);
+  }
+}
+
+@layer utilities {
+  .hover-orange:hover {
+    color: var(--color-orange);
+  }
+  
+  .hover-bg-orange:hover {
+    background-color: var(--color-orange);
+  }
+  
+  .border-gray {
+    border-color: var(--color-gray-border);
+  }
+
+  .font-base {
+    font-family: var(--font-family-base);
+  }
+  
+  .font-accent {
+    font-family: var(--font-family-accent);
   }
 }
 
 .c {
-  /*Сокращение для container | Abbreviation for container*/
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
   padding-inline: var(--container-padding-x);
-}
-
-.color-black {
-  color: var(--color-black);
-}
-
-.bg-black {
-  background-color: var(--color-black);
-}
-
-.color-white {
-  color: var(--color-white);
-}
-
-.bg-white {
-  background-color: var(--color-white);
-}
-
-.color-orange {
-  color: var(--color-orange);
-}
-
-.bg-orange {
-  background-color: var(--color-orange);
-}
-
-.color-dark {
-  color: var(--color-dark);
-}
-
-.bg-dark {
-  background-color: var(--color-dark);
-}
-
-.border-gray {
-  border-color: var(--table-border-color);
-}
-
-.font-base {
-  font-family: var(--font-base);
-}
-
-.font-accent {
-  font-family: var(--font-accent);
 }
