@@ -6,10 +6,10 @@
   --color-dark: #1a1917;
   --color-black: #000;
   --color-gray-border: rgba(151, 151, 151, 0.5);
-  
+
   --font-family-sans: 'Open Sans', sans-serif;
   --font-family-serif: 'Bebas Neue', sans-serif;
-  
+
   --font-family-base: 'Open Sans', sans-serif;
   --font-family-accent: 'Bebas Neue', sans-serif;
 }
@@ -19,7 +19,7 @@
     --container-padding-x: 15px;
     --container-width: 1185px;
   }
-  
+
   body {
     font-family: var(--font-family-base);
   }
@@ -29,11 +29,19 @@
   .hover-orange:hover {
     color: var(--color-orange);
   }
-  
+
   .hover-bg-orange:hover {
     background-color: var(--color-orange);
   }
-  
+
+  .hover-white:hover {
+    color: var(--color-white);
+  }
+
+  .hover-bg-white:hover {
+    background-color: var(--color-white);
+  }
+
   .border-gray {
     border-color: var(--color-gray-border);
   }
@@ -41,7 +49,7 @@
   .font-base {
     font-family: var(--font-family-base);
   }
-  
+
   .font-accent {
     font-family: var(--font-family-accent);
   }
