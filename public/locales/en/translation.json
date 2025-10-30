@@ -8,6 +8,14 @@
       "quotes": "quotes",
       "newsletter": "newsletter"
     },
-    "logoAlt": "SOS — Go back to the home page"
+    "logoAlt": "SOS — Go back to the home page",
+    "steamLabel": "game on Steam",
+    "xboxLabel": "game on Xbox"
+  },
+  "hero": {
+    "title": "survive at all costs",
+    "subtitle": "experience new social battle royale game",
+    "button": "buy now on steam",
+    "story": "the story"
   }
 }

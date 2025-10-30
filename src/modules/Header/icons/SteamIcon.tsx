@@ -1,6 +1,6 @@
 const SteamIcon = () => {
   return (
-    <svg width="30" height="30" viewBox="0 0 31 30" xmlns="http://www.w3.org/2000/svg">
+    <svg width="30" height="30" viewBox="0 0 31 30" xmlns="http://www.w3.org/2000/svg" aria-hidden>
       <path
         fillRule="evenodd"
         clipRule="evenodd"

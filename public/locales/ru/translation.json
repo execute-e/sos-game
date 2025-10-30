@@ -8,6 +8,14 @@
       "quotes": "цитаты",
       "newsletter": "рассылка"
     },
-    "logoAlt": "SOS — Вернуться на главную"
+    "logoAlt": "SOS — Вернуться на главную",
+    "steamLabel": "Игра в Steam",
+    "xboxLabel": "Игра в Xbox"
+  },
+  "hero": {
+    "title": "выжить любой ценой",
+    "subtitle": "испытай новую социальную battle royale игру",
+    "button": "купить сейчас в steam",
+    "story": "история"
   }
 }
