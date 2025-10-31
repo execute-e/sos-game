@@ -1,7 +1,6 @@
 {
   "header": {
     "nav": {
-      "main": "main",
       "about": "about",
       "gameFeatures": "game features",
       "systemRequirements": "system requirements",
@@ -17,5 +16,12 @@
     "subtitle": "experience new social battle royale game",
     "button": "buy now on steam",
     "story": "the story"
+  },
+  "about": {
+    "title": "social battle royale game",
+    "subtitle": "what is sos?",
+    "textFirst": "Each round, you and 15 other contestants compete to escape a deadly island filled with monsters. The trick is: three people can survive. Will you run solo or form friendships with others to escape?",
+    "textSecond": "Making the right decisions could be the difference between",
+    "textAccent": "life and death"
   }
 }

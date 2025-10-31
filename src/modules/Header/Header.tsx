@@ -71,7 +71,7 @@ const Header = () => {
             <button
               type="button"
               onClick={() => {
-                document.documentElement.style.overflowY = 'hidden';
+                document.documentElement.classList.toggle('isLock');
                 setMenuOpen((state) => !state);
               }}
               className="cursor-pointer hover:opacity-70 transition-opacity md:hidden flex flex-col items-center justify-center gap-y-1 w-5 h-5">
@@ -91,25 +91,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <BurgerMenu isOpen={isMenuOpen}>
-        <ul className="flex gap-y-5 text-[24px] text-center flex-col items-center">
-          <li className="hover:text-orange transition-colors">
-            <a href="#about">{t('header.nav.about')}</a>
-          </li>
-          <li className="hover:text-orange transition-colors">
-            <a href="#game-features">{t('header.nav.gameFeatures')}</a>
-          </li>
-          <li className="hover:text-orange transition-colors">
-            <a href="#system-requirements">{t('header.nav.systemRequirements')}</a>
-          </li>
-          <li className="hover:text-orange transition-colors">
-            <a href="#quotes">{t('header.nav.quotes')}</a>
-          </li>
-          <li className="hover:text-orange transition-colors">
-            <a href="#newsletter">{t('header.nav.newsletter')}</a>
-          </li>
-        </ul>
-      </BurgerMenu>
+      <BurgerMenu isOpen={isMenuOpen} />
     </header>
   );
 };
