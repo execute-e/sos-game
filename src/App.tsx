@@ -2,6 +2,7 @@ import About from "./modules/About/About"
 import Features from "./modules/Features/Features"
 import Header from "./modules/Header/Header"
 import Hero from "./modules/Hero/Hero"
+import Requirements from "./modules/Requirements/Requirements"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <About />
         <Features />
+        <Requirements />
      </main>
     </div>
   )

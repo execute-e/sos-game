@@ -35,5 +35,21 @@
       "thirdTitle": "впечатлить аудиторию",
       "thirdText": "У вас есть 30 минут, чтобы найти реликвию, подать сигнал на эвакуацию и захватить одно из трех мест на спасательном вертолете."
     }
+  },
+  "requirements": {
+    "subtitle": "может ли мой компьютер запустить эту игру?",
+    "title": "системные требования",
+    "table": {
+      "firstTitle": "ос",
+      "firstText": "Только Windows 7 64-битная (В настоящее время нет поддержки OSX)",
+      "secondTitle": "процессор",
+      "secondText": "Intel Core 2 Duo @ 2,4 ГГц или AMD Athlon X2 @ 2,8 ГГц",
+      "thirdTitle": "память",
+      "thirdText": "8 ГБ оперативной памяти",
+      "fourthTitle": "хранилище",
+      "fourthText": "8 ГБ свободного места",
+      "fifthTitle": "графика",
+      "fifthText": "NVIDIA GeForce GTX 660 2 ГБ или AMD Radeon HD 7850 2 ГБ DirectX11 (шейдерная модель 5)"
+    }
   }
 }

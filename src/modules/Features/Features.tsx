@@ -14,7 +14,7 @@ const Features = () => {
       id="game-features"
       className="min-h-screen bg-no-repeat bg-cover sm:bg-center bg-left text-white"
       style={{
-        backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%),url(${bg})`,
+        backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.5) 100%),url(${bg})`,
       }}
       aria-labelledby="features-title">
       <div className="flex items-center justify-end c min-h-screen">
