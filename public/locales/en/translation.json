@@ -29,11 +29,11 @@
     "title": "features",
     "accordion": {
       "firstTitle": "survive at all costs",
-      "firstText": "you have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.",
+      "firstText": "You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.",
       "secondTitle": "create allies and enemies",
-      "secondText": "you have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.",
+      "secondText": "You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.",
       "thirdTitle": "impress the audience",
-      "thirdText": "you have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper."
+      "thirdText": "You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper."
     }
   }
 }
