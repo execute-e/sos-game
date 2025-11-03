@@ -15,7 +15,7 @@ const About = () => {
       id="about"
       aria-labelledby="about-title"
       className="min-h-screen bg-no-repeat bg-cover bg-center text-white flex items-center sm:flex-row flex-col gap-y-[25px] justify-center overflow-x-hidden"
-      style={{ backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.5) 100%),url(${bg})` }}>
+      style={{ backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 1) 100%),url(${bg})` }}>
       <div className="c flex flex-col gap-y-0.5 sm:w-1/2">
         <div className="flex flex-col pb-2.5 border-b-2 mb-2.5 border-white leading-none">
           <h3 className='font-accent text-[18px]'>{t('about.subtitle')}</h3>

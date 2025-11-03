@@ -9,7 +9,7 @@ const Requirements = () => {
       id="system-requirements"
       className="min-h-screen bg-no-repeat bg-cover sm:bg-center bg-left text-white"
       style={{
-        backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.5) 100%),url(${bg})`,
+        backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 1) 100%),url(${bg})`,
       }}
       aria-labelledby="features-title">
       <div className="c flex flex-col gap-y-5 items-center justify-center min-h-screen">
@@ -17,7 +17,7 @@ const Requirements = () => {
           <h3 className="text-[18px] md:text-[24px]">{t('requirements.subtitle')}</h3>
           <h2 className="text-[33px] md:text-[56px]" id='features-title'>{t('requirements.title')}</h2>
         </div>
-        <dl className="grid grid-cols-2 lg:w-1/2 w-full self-start">
+        <dl className="grid grid-cols-2 lg:w-1/2 w-full self-start bg-black/50">
           {REQUIREMENTS.map((item, index) => {
             const isLastOddItem =
               index === REQUIREMENTS.length - 1 && REQUIREMENTS.length % 2 !== 0;

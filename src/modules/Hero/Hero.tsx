@@ -10,7 +10,7 @@ const Hero = () => {
     <section
       id="hero"
       className="min-h-screen bg-no-repeat bg-cover bg-center text-center"
-      style={{ backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.5) 100%),url(${bg})` }}
+      style={{ backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 1) 100%),url(${bg})` }}
       aria-labelledby="hero-title">
       <div className="c min-h-screen flex justify-center items-center flex-col sm:gap-y-[25px] gap-y-[15px]">
         <div className="font-bold font-accent text-white flex flex-col md:gap-y-[15px] gap-y-[7px] leading-none">
@@ -24,6 +24,7 @@ const Hero = () => {
         <a
           href="#"
           target="_blank"
+          rel="noopener noreferrer"
           className="bg-orange md:p-[15px] p-[5px] text-[12px] sm:text-[14px] md:text-[16px] font-bold rounded hover:bg-transparent border-orange border transition-colors">
           <dl className="flex items-center">
             <dt className="pr-2.5 border-r border-black capitalize">{t('hero.button')}</dt>

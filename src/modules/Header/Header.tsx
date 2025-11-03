@@ -57,6 +57,7 @@ const Header = () => {
             <a
               href="#"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-white text-orange transition-colors hidden md:block"
               aria-label={t('header.xboxLabel')}>
               <XboxIcon />
@@ -64,6 +65,7 @@ const Header = () => {
             <a
               href="#"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-white text-orange transition-colors hidden md:block"
               aria-label={t('header.steamLabel')}>
               <SteamIcon />
