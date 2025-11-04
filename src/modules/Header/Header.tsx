@@ -11,6 +11,11 @@ const Header = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setMenuOpen] = useState(false);
 
+  const handleOpen = () => {
+    document.documentElement.classList.toggle('isLock');
+    setMenuOpen((state) => !state);
+  };
+
   return (
     <header
       className={`top-0 left-0 right-0 leading-none font-accent font-bold tracking-[10%] text-white text-[16px] lg:text=[20px] absolute`}>
@@ -72,10 +77,7 @@ const Header = () => {
             </a>
             <button
               type="button"
-              onClick={() => {
-                document.documentElement.classList.toggle('isLock');
-                setMenuOpen((state) => !state);
-              }}
+              onClick={handleOpen}
               className="cursor-pointer hover:opacity-70 transition-opacity md:hidden flex flex-col items-center justify-center gap-y-1 w-5 h-5">
               <span
                 className={`bg-white h-0.5 w-[80%] rounded-sm transition-transform ${
@@ -93,7 +95,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <BurgerMenu isOpen={isMenuOpen} />
+      <BurgerMenu setOpen={handleOpen} isOpen={isMenuOpen} />
     </header>
   );
 };
