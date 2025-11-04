@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen bg-no-repeat bg-cover bg-center text-center"
+      className="min-h-screen bg-no-repeat bg-cover bg-center text-center relative"
       style={{ backgroundImage: `radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 1) 100%),url(${bg})` }}
       aria-labelledby="hero-title">
       <div className="c min-h-screen flex justify-center items-center flex-col sm:gap-y-[25px] gap-y-[15px]">

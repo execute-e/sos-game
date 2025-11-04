@@ -75,5 +75,21 @@
       "text": "Snoop Dogg Playing The Wildly Entertaining «SOS» Is Ridiculous.",
       "date": "December 24, 2018"
     }
+  },
+  "newsletter": {
+    "subtitle": "want to stay in touch?",
+    "title": "newsletter subscribe",
+    "text": "In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.",
+    "form": {
+      "emailPlaceholder": "Your email adress",
+      "submit": "Subscribe now",
+      "emptyFieldError": "Please, enter your email adress!",
+      "invalidFieldError": "Please, enter a valid email address!"
+    },
+    "success": {
+      "title": "Subscription Confirmed!",
+      "message": "Excellent! You'll now be among the first to know about all news and updates. We'll send you exclusive content, new feature announcements, and special offers. Check your email - your first message is on the way!",
+      "button": "Awesome, can't wait!"
+    }
   }
 }
