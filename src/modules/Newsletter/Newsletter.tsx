@@ -40,7 +40,7 @@ const Newsletter = () => {
       aria-labelledby="newsletter-title"
       aria-describedby="newsletter-description"
       className="bg-black min-h-screen bg-no-repeat bg-cover bg-center text-center text-white justify-center flex items-center">
-      <div className="c flex flex-col gap-y-[45px] md:w-1/2">
+      <div className="c flex flex-col md:gap-y-[45px] gap-y-5 md:w-2/3 lg:w-1/2 mt-[50px]">
         <div className="flex flex-col gap-y-2.5 font-accent leading-none">
           <h3 className="text-[18px] md:text-[24px]">{t('newsletter.subtitle')}</h3>
           <h2 id="newsletter-title" className="text-[33px] md:text-[56px]">
@@ -59,7 +59,7 @@ const Newsletter = () => {
             <label htmlFor="newsletter-email" className="sr-only">
               {t('newsletter.form.emailPlaceholder')}
             </label>
-            <div className="grid grid-cols-[6fr_4fr] gap-x-3 w-full">
+            <div className="grid lg:grid-cols-[6fr_4fr] grid-cols-1 grid-rows-2 gap-x-3 gap-y-3 w-full">
               <input
                 type="email"
                 id="newsletter-email"
@@ -76,7 +76,7 @@ const Newsletter = () => {
 
               <button
                 type="submit"
-                className="cursor-pointer text-dark hover:text-white bg-orange md:p-[15px] p-[5px] text-[12px] sm:text-[14px] md:text-[16px] font-bold rounded hover:bg-transparent border-orange border transition-colors">
+                className="cursor-pointer text-dark hover:text-white bg-orange p-[15px] text-[16px] font-bold rounded hover:bg-transparent border-orange border transition-colors">
                 {t('newsletter.form.submit')}
               </button>
             </div>
