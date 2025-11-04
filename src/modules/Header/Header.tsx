@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import logo from './images/logo.svg';
+import logo from '/logo.svg';
 import Select from '@/UI/Select/Select';
 import { LANGUAGES_OPTIONS } from '@/constants';
 import SteamIcon from './icons/SteamIcon';

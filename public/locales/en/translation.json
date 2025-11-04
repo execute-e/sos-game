@@ -91,5 +91,13 @@
       "message": "Excellent! You'll now be among the first to know about all news and updates. We'll send you exclusive content, new feature announcements, and special offers. Check your email - your first message is on the way!",
       "button": "Awesome, can't wait!"
     }
+  },
+  "footer": {
+    "copyright": "© 2018 Outpost Games, Inc. All Rights Reserved",
+    "extra": {
+      "policy": "privacy policy",
+      "terms": "terms of services",
+      "code": "code of conduct"
+    }
   }
 }

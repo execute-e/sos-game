@@ -1,5 +1,6 @@
 import About from "./modules/About/About"
 import Features from "./modules/Features/Features"
+import Footer from "./modules/Footer/Footer"
 import Header from "./modules/Header/Header"
 import Hero from "./modules/Hero/Hero"
 import Newsletter from "./modules/Newsletter/Newsletter"
@@ -18,6 +19,7 @@ function App() {
         <Quotes />
         <Newsletter />
      </main>
+     <Footer />
     </div>
   )
 }
