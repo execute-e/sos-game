@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import bg from './images/bg.jpg';
+import bg from './images/bg.webp';
 import { REQUIREMENTS } from '@/constants';
 
 const Requirements = () => {

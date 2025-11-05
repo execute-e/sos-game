@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import bg from './images/bg1.jpg';
+import bg from './images/bg1.webp';
 
 const PRICE = '$14.99';
 

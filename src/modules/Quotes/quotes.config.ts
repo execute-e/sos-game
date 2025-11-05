@@ -1,6 +1,6 @@
-import EvanImg from './images/evan.jpg';
-import JadaImg from './images/jada.jpg';
-import AaronImg from './images/aaron.jpg'
+import EvanImg from './images/evan.webp';
+import JadaImg from './images/jada.webp';
+import AaronImg from './images/aaron.webp'
 
 export interface IQuote {
   id: string;

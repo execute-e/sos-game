@@ -1,12 +1,12 @@
 import { EffectCards, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-import bg from './images/bg.jpg';
+import bg from './images/bg.webp';
 import { useTranslation } from 'react-i18next';
-import slide1 from './images/slide1.jpg';
-import slide2 from './images/slide2.jpg';
-import slide3 from './images/slide3.jpg';
-import slide4 from './images/slide4.jpg';
+import slide1 from './images/slide1.webp';
+import slide2 from './images/slide2.webp';
+import slide3 from './images/slide3.webp';
+import slide4 from './images/slide4.webp';
 
 const About = () => {
   const { t } = useTranslation();
