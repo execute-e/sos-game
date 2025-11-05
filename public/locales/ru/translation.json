@@ -9,7 +9,8 @@
     },
     "logoAlt": "SOS — Вернуться на главную",
     "steamLabel": "Игра в Steam",
-    "xboxLabel": "Игра в Xbox"
+    "xboxLabel": "Игра в Xbox",
+    "burgerButtonAria": "Открыть меню"
   },
   "hero": {
     "title": "выжить любой ценой",

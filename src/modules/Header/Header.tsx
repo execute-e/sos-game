@@ -78,7 +78,8 @@ const Header = () => {
             <button
               type="button"
               onClick={handleOpen}
-              className="cursor-pointer hover:opacity-70 transition-opacity md:hidden flex flex-col items-center justify-center gap-y-1 w-5 h-5">
+              className="cursor-pointer hover:opacity-70 transition-opacity md:hidden flex flex-col items-center justify-center gap-y-1 w-5 h-5"
+              aria-label='Open menu'>
               <span
                 className={`bg-white h-0.5 w-[80%] rounded-sm transition-transform ${
                   isMenuOpen ? 'rotate-45 translate-y-1.5' : ''

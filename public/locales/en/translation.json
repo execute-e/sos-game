@@ -9,7 +9,8 @@
     },
     "logoAlt": "SOS — Go back to the home page",
     "steamLabel": "game on Steam",
-    "xboxLabel": "game on Xbox"
+    "xboxLabel": "game on Xbox",
+    "burgerButtonAria": "Open menu"
   },
   "hero": {
     "title": "survive at all costs",
