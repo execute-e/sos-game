@@ -8,6 +8,8 @@ A modern, high-performance, and multilingual landing page for the **SOS Battle R
 
 ## [🚀 Live Demo](https://sos-game-seven.vercel.app/)
 
+[![demo](readme/hero.jpg)](https://sos-game-seven.vercel.app/)
+
 ## ✨ Features
 
 - **Multilingual (i18n):** Fully internationalized to support a global player base.
@@ -26,5 +28,13 @@ A modern, high-performance, and multilingual landing page for the **SOS Battle R
 - **i18n** for multilingual
 - **Swiper.js** for Slider
 - [![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&logoColor=white)](#)
+
+## Accessibility
+
+![accessibility](readme/a11y.jpg)
+
+## Perfomance
+
+![perfomance](readme/perfomance.jpg)
 
 **Built with ❤️**
